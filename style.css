@@ -1,20 +1,23 @@
 .promo_image
 {
-    background-image: url(KeyArt.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    margin: 0 auto;
-    width: 100%;
+    
 }
 
 body
 {
     background-color: black;
+    display: block;
 }
 
 .embeds {
     display: flex;
     justify-content: center;
+    border: 5%;
   }
+
+
+img{
+    width: 100%;
+    height: auto;
+
+}
