@@ -7,6 +7,8 @@ body
 {
     background-color: black;
     display: block;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .embeds {
@@ -21,3 +23,74 @@ img{
     height: auto;
 
 }
+
+.topnav {
+    font-family: "Platypi", serif;
+    font-weight: 600;
+    font-style: italic;
+
+    overflow: hidden;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #73e346;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+
+  h2{
+    font-family: "Platypi", serif;
+    font-weight: 600;
+    font-style: italic;
+    overflow: hidden;
+    margin-bottom: 1%;
+    font-size:xx-large;
+    margin-top: 1%;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    font-size: medium;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: white;
+    display: flex;
+    line-height: 1.5;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 5%;
+    padding-bottom: 2%;
+    
+  }
+
+  .about{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
